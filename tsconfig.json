@@ -10,6 +10,8 @@
     "noEmit": true,
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
-    "allowImportingTsExtensions": true
-  }
+    "allowImportingTsExtensions": true,
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }
