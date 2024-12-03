@@ -6,8 +6,6 @@ config();
 const URI = process.env.ATLAS_URI || "";
 const DB_NAME = process.env.DATA_BASE_NAME || "";
 
-console.log('DB_NAME', DB_NAME);
-
 export async function connectToDatabase(): Promise<void> {
     try {
 

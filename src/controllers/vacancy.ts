@@ -54,7 +54,6 @@ export class VacancyController {
     }
 
     public static async updateVacancy(req: Request, res: Response): Promise<void> {
-        console.log('updateVacancy controller', req.body);
         const { id } = req.params;
         const updates: Partial<Vacancy> = req.body;
 
